@@ -28,7 +28,7 @@ fastf1.Cache.enable_cache(cache_dir) #enable cache to store the data
 def get_lap_times(year, race, drivers=['HAM', 'RUS']):
     """Fetch lap times for a specific race and year for Mercedes drivers."""
     session = fastf1.get_session(year, race, 'R')  # Load Race session
-    session.load(telemetry=False, weather=False)  # Load session data without telemetry and weather to speed up the process
+    session.load(telemetry=False, weather=False, laps=True)  # Ensure laps data is loaded
 
     lap_times = {}
     for driver in drivers:
