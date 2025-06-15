@@ -1,0 +1,5 @@
+Site_ID,Option_ID,Option_Name,BNG,Habitat_Units,Cost_of_Habitats,Cost_vs_BNG_Min,Cost_Percentage,Source
+1,Op 1,Traditional approach,-16%,3.84,"£1,803,583",100%,14%,
+1,Op 2,Min BNG approach,12%,5.09,"£1,656,739",102%,13%,
+1,Op 3,Enhanced approach,20%,5.45,"£1,582,002",102%,12%,
+1,Op 4,Condensed (taller) option,34%,6.13,"£1,462,887",103%,11%,
